@@ -6,6 +6,11 @@ import GifList from './gif_list.jsx';
 import giphy from 'giphy-api';
 
 class App extends Component {
+
+  setId = (id) =>{
+    this.setState({selectedGifId: id});
+  }
+
   constructor(props) {
     super(props);
 
@@ -33,7 +38,7 @@ class App extends Component {
         </div>
       </div>
       <div className="right-scene">
-        <GifList gifs={this.state.gifs}/>
+        <GifList setId={this.setId} gifs={this.state.gifs}/>
       </div>
     </div>);
   }

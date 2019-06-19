@@ -4,7 +4,7 @@ import Gif from './gif.jsx';
 class GifList extends React.Component {
 
   renderList = () => {
-      return this.props.gifs.map(gif => <Gif id={gif.id} key={gif.id}/>)
+      return this.props.gifs.map(gif => <Gif id={gif.id} setId={this.props.setId} key={gif.id}/>)
 
   }
   render() {
