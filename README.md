@@ -1,6 +1,6 @@
-# react-boilerplate
+# react-Gifs
 
-Simple react starter with the following config:
+Simple react app with the following config:
 
 - React, ReactDOM
 - Webpack 4
@@ -8,6 +8,7 @@ Simple react starter with the following config:
 - Bootstrap (css only, loaded from a cdn in `index.html`)
 - work with `.js` or `.jsx` files
 - main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+- Giphy api
 
 ## Scripts
 
